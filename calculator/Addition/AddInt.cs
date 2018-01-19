@@ -14,5 +14,10 @@ namespace calculator.Addition
         {
             Console.WriteLine(FirstNumber + " + " + SecondNumber + " = " + (FirstNumber + SecondNumber));
         }
+        public void IncrementNumber(int number)
+        {
+            number++;
+            Console.WriteLine( (number - 1) + " + 1 = " + number);
+        }
     }
 }
